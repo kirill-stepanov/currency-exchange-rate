@@ -39,16 +39,6 @@ In `.env.example` you can see what you need to add to `.env`
 
 ## Installation
 
-<!-- ### Prerequisites
-
-- [Flutter](https://flutter.dev/docs/get-started/install) installed on your system.
-- [Dart](https://dart.dev/get-dart) installed.
-
-#### My versions:
-
-- Flutter 3.27.1
-- Dart 3.6.0 -->
-
 ### Steps
 
 1. Clone this repository:
@@ -86,10 +76,11 @@ In `.env.example` you can see what you need to add to `.env`
 ```bash
 src/
  ├── assets/         # Static assets such as icons.
- ├── components/     # Reusable components
+ ├── components/     # Reusable components.
  ├── constants/      # Constant values such as routes,async storage keys, etc.
- ├── hooks/          # Custom hooks for various tasks
- ├── screens/        # App screens and components related to them
- ├── store/          # Redux store for state management
- └── types/          # Types
+ ├── hooks/          # Custom hooks for various tasks.
+ ├── navigation/     # App navigation.
+ ├── screens/        # App screens and components related to them.
+ ├── store/          # Redux store for state management.
+ └── types/          # Types.
 ```

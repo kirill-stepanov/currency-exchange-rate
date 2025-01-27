@@ -54,7 +54,7 @@ export const updateFavoritesAsync = createAsyncThunk<void, string>(
     const { storeData } = useAsyncStorage();
     await storeData(asyncStorageKeys.FAVORITE_CURRENCIES, updatedFavorites);
 
-    dispatch(updateFavorites(updatedFavorites)); // Dispatch the synchronous action
+    dispatch(updateFavorites(updatedFavorites));
   }
 );
 

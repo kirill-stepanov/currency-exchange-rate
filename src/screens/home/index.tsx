@@ -18,7 +18,7 @@ import { styles } from "./styles";
 
 const HomeScreen = () => {
   const dispatch = useAppDispatch();
-  const { loading, base, favorites, currencies } = useAppSelector(
+  const { base, favorites, currencies } = useAppSelector(
     (state) => state.currencies
   );
 

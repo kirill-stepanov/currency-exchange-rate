@@ -37,7 +37,7 @@ const Header = (props: HeaderProps) => {
 
       <AppButton onPress={toggleIsShowFavorite}>
         <Text style={styles.text}>
-          {isShowFavorite ? "Show All" : "Show Favorite Only"}{" "}
+          {isShowFavorite ? "Show All" : "Show Favorite Only"}
         </Text>
       </AppButton>
     </View>
