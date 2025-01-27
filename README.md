@@ -25,7 +25,7 @@ The app was tested <u>ONLY</u> on Android platform
 - List of currencies rates.
 - Change user currency.
 - Add or remove currencies to favorites.
-- Filter tasks by type.
+- Add converter.
 - Offline support.
 
 ## API
